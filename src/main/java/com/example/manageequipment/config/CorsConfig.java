@@ -19,6 +19,8 @@ public class CorsConfig {
         configuration.addAllowedOrigin("http://localhost:4201"); // Replace with your frontend's URL
         configuration.addAllowedOrigin("https://equipment-ui-user.vercel.app");
         configuration.addAllowedOrigin("https://equipment-ui-admin.vercel.app");
+        configuration.addAllowedOrigin("https://manage-equipment-admin.vercel.app");
+        configuration.addAllowedOrigin("https://manage-equipment-user.vercel.app");
 //        configuration.addAllowedOrigin("*");
         configuration.addAllowedMethod("*"); // Allow all HTTP methods
         configuration.addAllowedHeader("*"); // Allow all headers
